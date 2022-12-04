@@ -1,0 +1,7 @@
+.primary-heading{
+    font-family: 'Dancing Script', cursive;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

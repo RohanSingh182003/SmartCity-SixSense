@@ -9,14 +9,17 @@ const Login = () => {
       <motion.div
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{delay : 0.5 , duration: 0.5 }}
+        transition={{ delay: 0.5, duration: 0.8 }}
       >
         <p className="text-6xl md:text-9xl text-white primary-heading">
           Smart City
         </p>
       </motion.div>
       {/* rightside component  */}
-      <div
+      <motion.div
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
         className="bg-white w-80 border rounded-md grid place-items-center gap-6 py-6"
       >
         <div className="grid place-items-center">
@@ -72,7 +75,7 @@ const Login = () => {
             sing up
           </span>
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };

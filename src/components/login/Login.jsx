@@ -11,7 +11,7 @@ const Login = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       >
-        <p className="text-6xl md:text-9xl text-white primary-heading">
+        <p className="text-6xl md:text-9xl text-white primary-heading -mt-24 md:mt-0">
           Smart City
         </p>
       </motion.div>
@@ -20,7 +20,7 @@ const Login = () => {
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
-        className="bg-white w-80 border rounded-md grid place-items-center gap-6 py-6"
+        className="bg-white w-80 border rounded-md grid place-items-center gap-6 py-6 -mt-48 md:mt-0"
       >
         <div className="grid place-items-center">
           <AiOutlineUnlock className="text-4xl text-info" />

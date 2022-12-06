@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Login = () => {
   return (
-    <div className="h-[100vh] w-[100vw] grid md:grid-cols-2 place-items-center bg-gradient-to-r from-cyan-500 to-pink-500">
+    <div className="min-h-screen w-screen grid md:grid-cols-2 place-items-center bg-gradient-to-r from-cyan-500 to-pink-500">
       {/* leftside component  */}
       <motion.div
         initial={{ opacity: 0, x: 100 }}

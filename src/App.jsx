@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageNotFound from "./components/404/PageNotFound";
+import Agent from "./components/agent/Agent";
 import Login from "./components/login/Login";
-import Organization from "./components/organization/Organization";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route exact path={'*'} element={<PageNotFound/>} />
         <Route exact path={'/'} element={<Login/>} />
-        <Route exact path={'/organization'} element={<Organization/>} />
+        <Route exact path={'/agent'} element={<Agent/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Card from "./Card";
+import Card from "./cards/Card";
 import Sidebar from "./Sidebar";
 import Today from "./tableComponent/Today";
 import ThisWeek from "./tableComponent/ThisWeek";

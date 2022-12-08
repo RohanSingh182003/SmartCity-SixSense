@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowDown, BsArrowUp } from "react-icons/bs";
-import DecrementProgress from "./tableComponent/progress/DecrementProgress";
-import IncrementProgress from "./tableComponent/progress/IncrementProgress";
+import DecrementProgress from "./progress/DecrementProgress";
+import IncrementProgress from "./progress/IncrementProgress";
 
 const Card = (props) => {
   return (

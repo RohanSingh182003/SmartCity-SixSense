@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import Card from "./cards/Card";
-import Sidebar from "./Sidebar";
-import Today from "./tableComponent/Today";
-import ThisWeek from "./tableComponent/ThisWeek";
-import All from "./tableComponent/All";
+import Card from "../cards/Card";
+import Sidebar from "../others/Sidebar";
+import Today from "../tableComponent/Today";
+import ThisWeek from "../tableComponent/ThisWeek";
+import All from "../tableComponent/All";
 
-const Agent = () => {
+const SupervisorDashboard = () => {
   const [firstTab, setFirstTab] = useState(true);
   const [secondTab, setSecondTab] = useState(false);
   const [thirdTab, setThirdTab] = useState(false);
   return (
     <section className="min-h-screen w-screen flex">
       {/* sidebar  */}
-      <Sidebar />
+      <Sidebar navigation={'dashboard'} />
       {/* main dashboard  */}
       <section className="w-full min-h-screen bg-blue-50">
         {/* top cards  */}
@@ -81,4 +81,4 @@ const Agent = () => {
   );
 };
 
-export default Agent;
+export default SupervisorDashboard;

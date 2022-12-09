@@ -16,7 +16,7 @@ const Agent = () => {
       {/* main dashboard  */}
       <section className="w-full min-h-screen bg-blue-50">
         {/* top cards  */}
-        <div className="flex flex-col md:flex-row justify-evenly items-center py-3">
+        <div className="flex flex-col md:flex-row justify-evenly items-center pt-8 pb-3">
           <Card
             value={123.56}
             progressValue={67}

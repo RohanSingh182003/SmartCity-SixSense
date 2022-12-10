@@ -71,7 +71,7 @@ const Sidebar = (props) => {
           <MdPendingActions className="text-xl" />
           <p className="ml-4 text-sm">Pending Requests</p>
         </Link>
-        <div className="py-4 px-2 flex items-center text-slate-300 font-light transition-all delay-150 cursor-pointer">
+        <div className="py-4 px-2 flex items-center text-slate-300 font-light transition-all delay-150 cursor-pointer hover:text-cyan-400">
           <AiOutlinePoweroff className="text-xl" />
           <p className="ml-4 text-sm">Logout</p>
         </div>

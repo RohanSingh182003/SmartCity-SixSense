@@ -4,18 +4,32 @@ import TableItems from "./tableItems/TableItems";
 const Today = () => {
   return (
     <table className="w-full table">
-      <thead className="py-4 border">
+      <thead className="py-4 border dark:border-none">
         <tr>
-          <th className="bg-white">User</th>
-          <th className="bg-white">Activity</th>
-          <th className="bg-white">Time</th>
-          <th className="bg-white">Status</th>
+          <th className="bg-white dark:bg-gray-800">User id</th>
+          <th className="bg-white dark:bg-gray-800">contct number</th>
+          <th className="bg-white dark:bg-gray-800">total devices</th>
         </tr>
       </thead>
       <tbody>
-        <TableItems name={'Princess Diana'} gender={'female'} activity={'Jumps over the lazy'} time={'3:28 PM'} status={'done'} />
-        <TableItems name={'Bruce Wayne'} gender={'male'} activity={'The quick brown fox'} time={'10:23 AM'} status={'delayed'} />
-        <TableItems name={'Clerk Kent'} gender={'male'} activity={'Dog the quick brown'} time={'2:37 PM'} status={'missed'} />
+        <TableItems
+          name={"Wonder Women"}
+          gender={"female"}
+          contactNumber={1234567890}
+          totalDevuces={5}
+        />
+        <TableItems
+          name={"Wonder Women"}
+          gender={"female"}
+          contactNumber={1234567890}
+          totalDevuces={5}
+        />
+        <TableItems
+          name={"Batman"}
+          gender={"male"}
+          contactNumber={1021469890}
+          totalDevuces={3}
+        />
       </tbody>
     </table>
   );

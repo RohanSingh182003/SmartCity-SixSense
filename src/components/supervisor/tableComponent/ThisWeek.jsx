@@ -4,42 +4,37 @@ import TableItems from "./tableItems/TableItems";
 const ThisWeek = () => {
   return (
     <table className="w-full table">
-      <thead className="py-4 border">
+      <thead className="py-4 border dark:border-none">
         <tr>
-          <th className="bg-white">User</th>
-          <th className="bg-white">Activity</th>
-          <th className="bg-white">Time</th>
-          <th className="bg-white">Status</th>
+          <th className="bg-white dark:bg-gray-800">User id</th>
+          <th className="bg-white dark:bg-gray-800">contct number</th>
+          <th className="bg-white dark:bg-gray-800">total devices</th>
         </tr>
       </thead>
       <tbody>
         <TableItems
-          name={"Princess Diana"}
+          name={"Wonder Women"}
           gender={"female"}
-          activity={"Jumps over the lazy"}
-          time={"3:28 PM"}
-          status={"done"}
+          contactNumber={1234567890}
+          totalDevuces={5}
         />
         <TableItems
-          name={"Bruce Wayne"}
+          name={"Batman"}
           gender={"male"}
-          activity={"The quick brown fox"}
-          time={"10:23 AM"}
-          status={"delayed"}
-        />
-        <TableItems
-          name={"Clerk Kent"}
-          gender={"male"}
-          activity={"Dog the quick brown"}
-          time={"2:37 PM"}
-          status={"missed"}
+          contactNumber={1021469890}
+          totalDevuces={3}
         />
         <TableItems
           name={"Wonder Women"}
           gender={"female"}
-          activity={"Dog the quick brown"}
-          time={"2:37 PM"}
-          status={"delayed"}
+          contactNumber={1234567890}
+          totalDevuces={5}
+        />
+        <TableItems
+          name={"Superman"}
+          gender={"male"}
+          contactNumber={1235736890}
+          totalDevuces={8}
         />
       </tbody>
     </table>

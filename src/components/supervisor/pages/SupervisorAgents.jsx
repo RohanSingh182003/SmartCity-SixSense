@@ -7,7 +7,7 @@ const SupervisorAgents = () => {
       {/* sidebar  */}
       <Sidebar navigation={'agents'} />
       {/* main dashboard  */}
-      <section className="w-full min-h-screen bg-blue-50">
+      <section className="w-full min-h-screen bg-blue-50 dark:bg-gray-900">
       </section>
     </section>
   );

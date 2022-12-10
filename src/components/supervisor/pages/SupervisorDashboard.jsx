@@ -14,7 +14,7 @@ const SupervisorDashboard = () => {
       {/* sidebar  */}
       <Sidebar navigation={'dashboard'} />
       {/* main dashboard  */}
-      <section className="w-full min-h-screen bg-blue-50">
+      <section className="w-full min-h-screen bg-blue-50 dark:bg-gray-900">
         {/* top cards  */}
         <div className="flex flex-col md:flex-row justify-evenly items-center pt-8 pb-3">
           <Card
@@ -44,7 +44,7 @@ const SupervisorDashboard = () => {
               setSecondTab(false);
               setThirdTab(false);
             }}
-            className={`tab tab-lifted ${firstTab ? 'tab-active' : 'hover:text-info'}`}
+            className={`tab tab-lifted ${firstTab ? 'tab-active' : 'hover:text-info dark:hover:text-cyan-600'}`}
           >
             Today
           </a>
@@ -54,7 +54,7 @@ const SupervisorDashboard = () => {
               setSecondTab(true);
               setThirdTab(false);
             }}
-            className={`tab tab-lifted ${secondTab ? 'tab-active' : 'hover:text-info'}`}
+            className={`tab tab-lifted ${secondTab ? 'tab-active' : 'hover:text-info dark:hover:text-cyan-600'}`}
           >
             This Week
           </a>
@@ -64,7 +64,7 @@ const SupervisorDashboard = () => {
               setSecondTab(false);
               setThirdTab(true);
             }}
-            className={`tab tab-lifted ${thirdTab ? 'tab-active' : 'hover:text-info'}`}
+            className={`tab tab-lifted ${thirdTab ? 'tab-active' : 'hover:text-info dark:hover:text-cyan-600'}`}
           >
             All
           </a>

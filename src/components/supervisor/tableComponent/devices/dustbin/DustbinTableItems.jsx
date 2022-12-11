@@ -1,11 +1,15 @@
 import React from "react";
+import ActiveDeactiveStatus from '../common/ActiveDeactiveStatus'
 
-const DustbinTableItems = () => {
+const DustbinTableItems = (props) => {
   return (
     <tr className="hover font-light text-gray-700">
-      <td>2</td>
-      <td>4</td>
-      <td>8</td>
+      <td>{props.id}</td>
+      <td>{props.mac_address}</td>
+      <td>{props.location}</td>
+      <td>
+        <ActiveDeactiveStatus status={props.status} />
+      </td>
     </tr>
   );
 };

@@ -3,7 +3,7 @@ import ActiveAgentsTableItems from './ActiveAgentsTableItems'
 
 const ActiveAgentsTable = () => {
   return (
-    <div className="w-full bg-white p-4 md:col-span-3">
+    <div className="w-full bg-white dark:bg-gray-900 p-4 md:col-span-3">
     <table className="w-full table">
       <thead className="py-4 border dark:border-none">
         <tr>
@@ -14,10 +14,10 @@ const ActiveAgentsTable = () => {
         </tr>
       </thead>
       <tbody>
-          <ActiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
-          <ActiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
-          <ActiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
-          <ActiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
+          <ActiveAgentsTableItems userId={'user id'} gender={'female'} phone={94569657891} totalDevices={15} />
+          <ActiveAgentsTableItems userId={'user id'} gender={'male'} phone={94569657891} totalDevices={15} />
+          <ActiveAgentsTableItems userId={'user id'} gender={'male'} phone={94569657891} totalDevices={15} />
+          <ActiveAgentsTableItems userId={'user id'} gender={'female'} phone={94569657891} totalDevices={15} />
       </tbody>
     </table>
   </div>

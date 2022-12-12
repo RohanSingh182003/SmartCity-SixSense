@@ -15,8 +15,8 @@ const SupervisorDevices = () => {
       <Sidebar navigation={"devices"} />
       {/* main dashboard  */}
       <section className="w-full min-h-screen bg-blue-50 dark:bg-gray-900 px-4">
-        <div className="py-2 px-6 mt-6 border-b-2 border-gray-300">
-          <p className="text-2xl text-gray-700 font-light">Devices</p>
+        <div className="py-2 px-6 mt-6 border-b-2 border-gray-300 dark:border-gray-700">
+          <p className="text-2xl text-gray-700 dark:text-gray-400 font-light">Devices</p>
         </div>
         {/* sub dashboard wrapper */}
         <div className="grid grid-cols-4 mt-4">

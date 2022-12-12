@@ -10,7 +10,7 @@ const AgentSidebar = ({all,setAll,active,setActive,deactive,setDeactive}) => {
         setDeactive(false);
       }}
       className={`p-4 cursor-pointer ${
-        all ? "bg-white" : "font-light hover:text-info"
+        all ? "bg-white dark:bg-gray-800 dark:rounded-md" : "font-light hover:text-info"
       }`}
     >
       <p>All</p>
@@ -22,7 +22,7 @@ const AgentSidebar = ({all,setAll,active,setActive,deactive,setDeactive}) => {
         setDeactive(false);
       }}
       className={`p-4 cursor-pointer ${
-        active ? "bg-white" : "font-light hover:text-info"
+        active ? "bg-white dark:bg-gray-800 dark:rounded-md" : "font-light hover:text-info"
       }`}
     >
       <p>Active</p>
@@ -34,7 +34,7 @@ const AgentSidebar = ({all,setAll,active,setActive,deactive,setDeactive}) => {
         setDeactive(true);
       }}
       className={`p-4 cursor-pointer ${
-        deactive ? "bg-white" : "font-light hover:text-info"
+        deactive ? "bg-white dark:bg-gray-800 dark:rounded-md" : "font-light hover:text-info"
       }`}
     >
       <p>Deactive</p>

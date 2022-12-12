@@ -17,7 +17,7 @@ const DeviceSidebar = ({
           setWaterPoints(false);
         }}
         className={`p-4 cursor-pointer ${
-          dustbin ? "bg-white" : "font-light hover:text-info"
+          dustbin ? "bg-white dark:bg-gray-800 dark:rounded-md" : "font-light hover:text-info"
         }`}
       >
         <p>Dustbines</p>
@@ -29,7 +29,7 @@ const DeviceSidebar = ({
           setWaterPoints(false);
         }}
         className={`p-4 cursor-pointer ${
-          toilets ? "bg-white" : "font-light hover:text-info"
+          toilets ? "bg-white dark:bg-gray-800 dark:rounded-md" : "font-light hover:text-info"
         }`}
       >
         <p>Smarttoilets</p>
@@ -41,7 +41,7 @@ const DeviceSidebar = ({
           setWaterPoints(true);
         }}
         className={`p-4 cursor-pointer ${
-          waterPoints ? "bg-white" : "font-light hover:text-info"
+          waterPoints ? "bg-white dark:bg-gray-800 dark:rounded-md" : "font-light hover:text-info"
         }`}
       >
         <p>Waterpoints</p>

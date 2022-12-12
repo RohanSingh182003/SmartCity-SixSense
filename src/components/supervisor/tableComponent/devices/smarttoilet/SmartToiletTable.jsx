@@ -3,7 +3,7 @@ import SmartToiletTableItems from "./SmartToiletTableItems";
 
 const SmartToiletTable = () => {
   return (
-    <div className="w-full bg-white p-4 md:col-span-3">
+    <div className="w-full bg-white dark:bg-gray-900 p-4 md:col-span-3">
       <table className="w-full table">
         <thead className="py-4 border dark:border-none">
           <tr>

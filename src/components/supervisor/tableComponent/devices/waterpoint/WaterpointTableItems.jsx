@@ -3,7 +3,7 @@ import ActiveDeactiveStatus from '../../common/ActiveDeactiveStatus'
 
 const WaterpointTableItems = (props) => {
   return (
-    <tr className="hover font-light text-gray-700">
+    <tr className="hover font-light text-gray-700 dark:text-gray-400">
       <td>{props.id}</td>
       <td>{props.mac_address}</td>
       <td>{props.location}</td>

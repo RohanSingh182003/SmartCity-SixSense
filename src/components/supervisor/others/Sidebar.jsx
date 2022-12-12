@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = (props) => {
   return (
-    <section className="min-h-screen hidden md:block z-10 w-80 bg-slate-600 shadow-2xl shadow-slate-600 p-6">
+    <section className="min-h-screen hidden md:block z-10 w-80 bg-slate-600 dark:bg-slate-800 shadow-2xl shadow-slate-600 dark:shadow-slate-800 p-6">
       <div className="flex items-center">
         <AiOutlineStock className="text-white text-3xl rounded-md bg-gradient-to-tr from-info to-green-300" />
         <p className="ml-2 text-lg text-gray-300 font-extralight">Supervisor</p>

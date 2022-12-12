@@ -3,7 +3,7 @@ import DeactiveAgentsTableItems from './DeactiveAgentsTableItems'
 
 const DeactiveAgentsTable = () => {
   return (
-    <div className="w-full bg-white p-4 md:col-span-3">
+    <div className="w-full bg-white dark:bg-gray-900 p-4 md:col-span-3">
     <table className="w-full table">
       <thead className="py-4 border dark:border-none">
         <tr>
@@ -14,10 +14,10 @@ const DeactiveAgentsTable = () => {
         </tr>
       </thead>
       <tbody>
-          <DeactiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
-          <DeactiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
-          <DeactiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
-          <DeactiveAgentsTableItems userId={1478} phone={94569657891} totalDevices={15} />
+          <DeactiveAgentsTableItems userId={'user id'} gender={'male'} phone={94569657891} totalDevices={15} />
+          <DeactiveAgentsTableItems userId={'user id'} gender={'male'} phone={94569657891} totalDevices={15} />
+          <DeactiveAgentsTableItems userId={'user id'} gender={'female'} phone={94569657891} totalDevices={15} />
+          <DeactiveAgentsTableItems userId={'user id'} gender={'female'} phone={94569657891} totalDevices={15} />
       </tbody>
     </table>
   </div>

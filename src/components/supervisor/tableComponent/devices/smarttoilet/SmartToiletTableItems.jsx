@@ -1,5 +1,5 @@
 import React from 'react'
-import ActiveDeactiveStatus from '../common/ActiveDeactiveStatus'
+import ActiveDeactiveStatus from '../../common/ActiveDeactiveStatus'
 
 const SmartToiletTableItems = (props) => {
   return (
